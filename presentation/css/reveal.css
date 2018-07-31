@@ -1556,27 +1556,31 @@ body {
 
 
 #left {
-  left:-8.33%;
-  text-align: left;
   float: left;
   width:50%;
-  z-index:-10;
-  margin-left:-20% !important;
 }
 
 #right {
-  left:31.25%;
   top: 75px;
   float: right;
   text-align: left;
-  z-index:-10;
   width:50%;
-  margin-right:-10% !important;
 }
 
 .videoleft {
-  width: 150% !important;
+  width: 50% !important;
 
   max-width: none !important;
   max-height: none !important;
+
+  float: left;
+}
+
+.videoleftlarge {
+  width: 70% !important;
+
+  max-width: none !important;
+  max-height: none !important;
+
+  float: left;
 }
