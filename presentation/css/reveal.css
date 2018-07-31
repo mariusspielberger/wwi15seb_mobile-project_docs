@@ -1561,6 +1561,7 @@ body {
   float: left;
   width:50%;
   z-index:-10;
+  margin-left:-20% !important;
 }
 
 #right {
@@ -1570,4 +1571,12 @@ body {
   text-align: left;
   z-index:-10;
   width:50%;
+  margin-right:-10% !important;
+}
+
+.videoleft {
+  width: 150% !important;
+
+  max-width: none !important;
+  max-height: none !important;
 }

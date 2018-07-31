@@ -2,7 +2,7 @@
 <html lang="en">
 <meta charset="utf-8">
 <head>
-    <link rel="stylesheet" href="https://cdn.rawgit.com/mariusspielberger/wwi15seb_mobile-project_docs/505b6d74/presentation/css/reveal.css">
+    <<link rel="stylesheet" href="https://cdn.rawgit.com/mariusspielberger/wwi15seb_mobile-project_docs/505b6d74/presentation/css/reveal.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/mariusspielberger/wwi15seb_mobile-project_docs/505b6d74/presentation/css/theme/white.css">
 	<title>Kanuverein Südliche Weinstraße e. V.</title>
 	<style>
@@ -34,7 +34,7 @@
 			<textarea data-template>
         <h3>Eventteilnahme</h3>
 				<div id="left">
-					 <video controls autoplay>
+					 <video controls class="videoleft">
 					 	<source src="./video/Mobile_1.mp4" type="video/mp4"></source>
 					 </video>
 				</div>
@@ -53,7 +53,7 @@
 			<textarea data-template>
         <h3>Event teilen</h3>
 				<div id="left">
-					 <video controls autoplay>
+					 <video controls class="videoleft">
 					 	<source src="./video/Mobile_2_share.mp4" type="video/mp4"></source>
 					 </video>
 				</div>
@@ -71,7 +71,7 @@
 			<textarea data-template>
         <h3>Erreichen des Eventtreffpunkts</h3>
 				<div id="left">
-					 <video controls autoplay>
+					 <video controls class="videoleft">
 					 	<source src="./video/Mobile_3_phone_nav.mp4" type="video/mp4"></source>
 					 </video>
 				</div>
@@ -90,7 +90,7 @@
 			<textarea data-template>
         <h3>Event anlegen (als User)</h3>
 				<div id="left">
-					 <video controls autoplay>
+					 <video controls class="videoleft">
 					 	<source src="./video/Mobile_4_createevent.mp4" type="video/mp4"></source>
 					 </video>
 				</div>
@@ -107,7 +107,7 @@
       <textarea data-template>
         <h3>Event anlegen (als Admin)</h3>
         <div id="left">
-           <video controls autoplay>
+           <video controls class="videoleft">
             <source src="./video/Mobile_6_admincreateevent.mp4" type="video/mp4"></source>
            </video>
         </div>
@@ -125,7 +125,7 @@
 			<textarea data-template>
         <h3>Event löschen</h3>
 				<div id="left">
-					 <video controls autoplay>
+					 <video controls class="videoleft">
 					 	<source src="./video/Mobile_5_deleteevent.mp4" type="video/mp4"></source>
 					 </video>
 				</div>
@@ -142,7 +142,7 @@
 			<textarea data-template>
         <h3>Kalender</h3>
 				<div id="left">
-					 <video controls autoplay>
+					 <video controls class="videoleft">
 					 	<source src="./video/Mobile_7_calendar.mp4" type="video/mp4"></source>
 					 </video>
 				</div>
@@ -160,7 +160,7 @@
       <textarea data-template>
         <h2>Adminverwaltung</h2>
         <div id="left">
-           <video controls autoplay>
+           <video controls class="videoleft">
             <source src="./video/Mobile_8_adminorganisation.mp4" type="video/mp4"></source>
            </video>
         </div>
@@ -177,7 +177,7 @@
       <textarea data-template>
         <h3>Position teilen/einsehen</h3>
         <div id="left">
-           <video controls autoplay>
+           <video controls class="videoleft">
             <source src="./video/Mobile_9_psitionsharing.mp4" type="video/mp4"></source>
            </video>
         </div>
@@ -203,8 +203,8 @@
 
 		<section data-markdown>
 			<textarea data-template>
-        <h3>Thank you for your attention</h3>
-        <span>Mobille II, WWI15SEB</span>
+        <h3>Danke für Ihre Aufmerksamkeit</h3>
+        <span>Mobile Apps II, WWI15SEB</span>
         <ul>
           <li>Martin Faber</li>
           <li>Ina Kolbinger</li>
@@ -212,7 +212,7 @@
           <li>Nico Zeilfelder</li>
         </ul>
         <br/><br/>
-        <span>Video and presentation licensed under the <a href="https://creativecommons.org/licenses/by/4.0/legalcode">Creative Commons license</a></span>
+        <span>Video und Präsentation sind lizensiert unter der <a href="https://creativecommons.org/licenses/by/4.0/legalcode">Creative Commons license</a></span>
 			</textarea>
 		</section>
     </div>
@@ -287,7 +287,7 @@
 	// - null: Media will only autoplay if data-autoplay is present
 	// - true: All media will autoplay, regardless of individual setting
 	// - false: No media will autoplay, regardless of individual setting
-	autoPlayMedia: null,
+	autoPlayMedia: true,
 
 	// Number of milliseconds between automatically proceeding to the
 	// next slide, disabled when set to 0, this value can be overwritten
